@@ -109,9 +109,9 @@ Example Queries:
 * The system is designed for demo purposes with synthetic customer data.
 
 ## 📹 Demo
-A video demo showcasing the functionality of the multi-agent system can be found here:
+A video demo showcasing the functionality of the multi-agent system can be found here:<br>
 [Demo Video URL]
 
 ## 📝 Author
-Bethel Unwan – Software Developer
-Project submitted for: TCS GenAI Developer Assessment
+- Bethel Unwan – Software Developer
+- Project submitted for: TCS GenAI Developer Assessment
