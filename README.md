@@ -17,7 +17,7 @@ Customer support executives often face difficulties in accessing and summarizing
 
 ## 🏗️ System Architecture
 
-  ```
+  ```pgsql
                                               +---------------------------+
                                               |       Streamlit UI        |
                                               |  (User Natural Language)  |
