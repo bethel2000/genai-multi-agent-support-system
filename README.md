@@ -18,37 +18,37 @@ Customer support executives often face difficulties in accessing and summarizing
 ## 🏗️ System Architecture
 
   ```
-                    +---------------------------+
-                    |       Streamlit UI        |
-                    |  (User Natural Language)  |
-                    +---------------------------+
-                                   |
-                                   v
-                        +-------------------+
-                        |   Query Router    |
-                        |  (Intent Logic)   |
-                        +-------------------+
-                           |             |
-            ----------------              ----------------
-            |                                              |
-            v                                              v
-+---------------------------+              +------------------------------+
-|        SQL Agent          |              |        Policy Agent          |
-| (Structured Data Handler) |              | (RAG - Unstructured PDFs)    |
-+---------------------------+              +------------------------------+
-            |                                              |
-            v                                              v
-+---------------------------+              +------------------------------+
-|     SQLite Database       |              |   FAISS Vector Store         |
-| (Customers & Tickets)     |              |  (Embedded PDF Chunks)       |
-+---------------------------+              +------------------------------+
-                           \                /
-                            \              /
-                             v            v
-                     +---------------------------+
-                     |     Groq LLM (Llama 3)    |
-                     |   Response Generation     |
-                     +---------------------------+
+                                        +---------------------------+
+                                        |       Streamlit UI        |
+                                        |  (User Natural Language)  |
+                                        +---------------------------+
+                                                       |
+                                                       v
+                                            +-------------------+
+                                            |   Query Router    |
+                                            |  (Intent Logic)   |
+                                            +-------------------+
+                                               |             |
+                                ----------------              ----------------
+                                |                                              |
+                                v                                              v
+                    +---------------------------+              +------------------------------+
+                    |        SQL Agent          |              |        Policy Agent          |
+                    | (Structured Data Handler) |              | (RAG - Unstructured PDFs)    |
+                    +---------------------------+              +------------------------------+
+                                |                                              |
+                                v                                              v
+                    +---------------------------+              +------------------------------+
+                    |     SQLite Database       |              |   FAISS Vector Store         |
+                    | (Customers & Tickets)     |              |  (Embedded PDF Chunks)       |
+                    +---------------------------+              +------------------------------+
+                                               \                /
+                                                \              /
+                                                 v            v
+                                         +---------------------------+
+                                         |     Groq LLM (Llama 3)    |
+                                         |   Response Generation     |
+                                         +---------------------------+
 ```
 
 **Key Features:**
