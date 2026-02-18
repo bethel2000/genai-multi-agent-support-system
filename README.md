@@ -93,12 +93,12 @@ streamlit run app.py
 Example Queries:
 1. Policy questions:
 
-* "What is the refund policy?"
+   * "What is the refund policy?"
 
-* "Summarize the program cancellation rules."
+   * "Summarize the program cancellation rules."
 
 2. Customer data questions:
 
-* "Give me an overview of customer Ema Johnson and her support tickets."
+   * "Give me an overview of customer Ema Johnson and her support tickets."
 
-* "Show all open tickets for Daniel Lee."
+   * "Show all open tickets for Daniel Lee."
