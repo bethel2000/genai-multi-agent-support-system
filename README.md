@@ -120,7 +120,7 @@ Example Queries:
 1. Policy questions:
 
    * "What is the refund policy?"
-   * "Summarize the program cancellation rules."
+   * "What is the method of payment for refunds?"
    * "Under what conditions are refunds granted at 70%?"
 
 2. Customer data questions:
