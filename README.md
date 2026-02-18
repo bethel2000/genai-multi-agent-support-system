@@ -96,14 +96,14 @@ Example Queries:
 1. Policy questions:
 
    * "What is the refund policy?"
-
    * "Summarize the program cancellation rules."
+   * "Under what conditions are refunds granted at 70%?"
 
 2. Customer data questions:
 
    * "Give me an overview of customer Ema Johnson and her support tickets."
-
    * "Show all open tickets for Daniel Lee."
+   * "Which customers currently have resolved tickets?"
 
 ## ⚡ Notes
 * The `k` parameter in similarity search determines how many PDF chunks are considered. Default is 3; increase if you want more context from multiple documents.
