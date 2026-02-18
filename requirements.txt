@@ -1,0 +1,32 @@
+# Core
+python-dotenv==1.2.1
+streamlit==1.54.0
+
+# LangChain & Groq
+langchain==1.2.10
+langchain-groq==1.1.2
+langchain-text-splitters==1.1.0
+langchain-classic==1.0.1
+langchain-community==0.4.1
+langchain-core==1.2.13
+langgraph==1.0.8
+langgraph-sdk==0.3.6
+langsmith==0.7.3
+langgraph-checkpoint==4.0.0
+
+# Embeddings
+sentence-transformers==5.2.3
+huggingface_hub==1.4.1
+
+# PDF and data handling
+pypdf==6.7.1
+pandas==2.3.3
+numpy==2.4.2
+SQLAlchemy==2.0.46
+
+# Vector database
+faiss-cpu==1.13.2
+
+
+requests==2.32.5
+tqdm==4.67.3
