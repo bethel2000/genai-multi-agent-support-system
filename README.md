@@ -17,6 +17,7 @@ Customer support executives often face difficulties in accessing and summarizing
 
 ## 🏗️ System Architecture
 
+  ```
                     +---------------------------+
                     |       Streamlit UI        |
                     |  (User Natural Language)  |
@@ -48,7 +49,7 @@ Customer support executives often face difficulties in accessing and summarizing
                      |     Groq LLM (Llama 3)    |
                      |   Response Generation     |
                      +---------------------------+
-
+```
 
 **Key Features:**
 
