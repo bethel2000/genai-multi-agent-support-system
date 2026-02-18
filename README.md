@@ -102,3 +102,16 @@ Example Queries:
    * "Give me an overview of customer Ema Johnson and her support tickets."
 
    * "Show all open tickets for Daniel Lee."
+
+## ⚡ Notes
+* The `k` parameter in similarity search determines how many PDF chunks are considered. Default is 3; increase if you want more context from multiple documents.
+* Some complex aggregation queries in SQL may need simpler phrasing to ensure accurate responses.
+* The system is designed for demo purposes with synthetic customer data.
+
+## 📹 Demo
+A video demo showcasing the functionality of the multi-agent system can be found here:
+[Demo Video URL]
+
+## 📝 Author
+Bethel Unwan – Software Developer
+Project submitted for: TCS GenAI Developer Assessment
