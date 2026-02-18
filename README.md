@@ -136,7 +136,7 @@ Example Queries:
 
 ## 📹 Demo
 A video demo showcasing the functionality of the multi-agent system can be found here:<br>
-[Demo Video]([PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE](https://drive.google.com/file/d/1Cdzox8qT7x6nyBXPpXwP5ShUGGjIpTXa/view?usp=sharing))
+[Demo Video](https://drive.google.com/file/d/1Cdzox8qT7x6nyBXPpXwP5ShUGGjIpTXa/view?usp=sharing)
 
 ## 📝 Author
 Bethel Unwan – Software Developer
