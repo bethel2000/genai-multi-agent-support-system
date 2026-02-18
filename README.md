@@ -133,6 +133,7 @@ Example Queries:
 * The `k` parameter in similarity search determines how many PDF chunks are considered. Default is 3; increase if you want more context from multiple documents.
 * Some complex aggregation queries in SQL may need simpler phrasing to ensure accurate responses.
 * The system is designed for demo purposes with synthetic customer data.
+* Agent orchestration is handled within the application code; in a production system, an MCP server could be introduced to standardize communication between the LLM and multiple tools for better scalability.
 
 ## 📹 Demo
 A video demo showcasing the functionality of the multi-agent system can be found here:<br>
