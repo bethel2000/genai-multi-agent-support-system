@@ -141,4 +141,3 @@ A video demo showcasing the functionality of the multi-agent system can be found
 
 ## 📝 Author
 Bethel Unwan – Software Developer
-<br> Project submitted for: TCS GenAI Developer Assessment
